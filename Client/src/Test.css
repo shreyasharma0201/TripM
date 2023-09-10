@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-field select {
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.input-field {
+    margin-top: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+.driver-box {
+    box-shadow: 3px 3px 5px #cbd0d0,
+        -3px -3px 5px #edf3f3;
+    color: #969a9a;
+    padding: 1rem;
+}
+
+.driver-field {
+    color: black;
+}
+
+.driver-link {
+    color: black;
+    font-weight: bold;
+}
+
+.card-1 {
+    background-color: palevioletred;
+}
+
+.driver-card {
+    background-color: #d9a7c7;
+}
+
+.card-3 {
+    background-color: #D76D77;
+}
+
+.home-card {
+    background-color: #D76D77;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+select-area:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 -1px 0 var(--color2);
+}
+
+* {
+    font-size: 16px;
+    font-family: 'Quicksand',
+        sans-serif;
+    --color1 : whitesmoke;
+    --color2: #3494E6;
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(240, 237, 237, 0.8);
+    height: 4rem;
+}
+.footer-wrapper{
+    margin-top: 100px;
+}
+.card-hover {
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+.card-hover:hover {
+    transform: scale(0.92);
+}
+.card-1{
+    background: linear-gradient(45deg,  #F2994A, #F2C94C);
+}
+.card-2{
+    background: linear-gradient(45deg, #BDFFF3, #4AC29A);
+}
+.card-3 {
+    background: linear-gradient(45deg, #F8FFAE, #43C6AC );
+}
+.card-4 {
+    background: linear-gradient(45deg, #FFAFBD, #ffc3a0);
+}
+.card-5 {
+    background: linear-gradient(45deg, #3494E6, #EC6EAD);
+}
+.card-6 {
+    background: linear-gradient(45deg, #ee0979, #ff6a00);
+}
+.card-7 {
+    background: linear-gradient(45deg, #e96443, #904e95);
+}
+.card-0 {
+    background: linear-gradient(45deg, #29809b, #2c3e50);
+}
+.card-8 {
+    background: linear-gradient(45deg, #FBD3E9, #BB377D);
+}
+.card-9 {
+    background: linear-gradient(45deg, #3CD3AD, #4CB8C4);
+}
+.card-10 {
+    background: linear-gradient(64.3deg, rgba(254, 122, 152, 0.81) 17.7%, rgba(255, 206, 134, 1) 64.7%, rgba(172, 253, 163, 0.64) 112.1%);
+}
+.form-title {
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: grey
+}
+.navbar .navbar-toggler {
+    color: black;
+}
+.navbar {
+    background: var(--color1);
+    box-shadow: rgba(57, 58, 59, 0.2) 0px 8px 24px;
+}
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-text{
+    color: white;
+}
+.image-res {
+    max-width: 100%;
+    height: auto;
+}
+.main-heading {
+    background-image: repeating-linear-gradient(to right, #3494E6, #EC6EAD 10%, #ee0979 20%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+}
+.container {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.container .signup-content {
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 14px 14px 28px #dae2eb,
+        -14px -14px 28px #dae2eb;
+}
+.input-field input {
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+.input-field select {
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+.input-field {
+    margin-top: 0.8rem;
+}
+#addbtn {
+    margin-right: 4rem;
+}
+.image-res {
+    max-width: 100%;
+    height: auto;
+}
+.validation {
+    display: none;
+}
+.error {
+    color: red;
+    display: block;
+    font-size: 0.8rem;
+}
+.entry {
+    display: none;
+}
+.no-entry {
+    color: #b4b5b5;
+    font-size: 6vmin;
+    width: 100%;
+}
+.btn {
+    margin-top: 1rem;
+}
+.carosel{
+    width: 100%;
+}
+.card-title{
+    color: white;
+}
+.card-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+}
+.filter{
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+    width: 20rem;
+}
+.filter select {
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+    box-shadow: inset 0 -1px 0 var(--color2);
+}
+.filter:focus{
+    border: none;
+}
+.carosouel-text{
+    font-size: 2.2vmin;
+}
+.carosouel-subtext{
+    font-size: 2vmin;
+}
+.driver-box {
+    box-shadow: 3px 3px 5px #cbd0d0,
+        -3px -3px 5px #edf3f3;
+    color: #2c3e50;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 3px;
+    background: linear-gradient(45deg, #faf9f8, #f1f1f0);
+}
+.driver-field{
+    color: grey;
+}
+.nav-head{
+    font-size: 1.8rem;
+}
+.home-head{
+    font-size: 4vmin;
+}
+.img-home{
+    max-width: 6vmin;
+    height: auto;
+}
+.login-form{
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 14px 14px 28px #dae2eb,
+        -14px -14px 28px #dae2eb;
+    max-width: 30rem;
+    height: 20rem;
+    min-width: fit-content;
+}
+.close {
+    border: solid 0px black;
+    background-color: inherit;
+    color: black;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+.hide-form{
+    display: none;
+}
+.nohide-form {
+    display: block;
+}
+.del-btn:hover {
+    color: #e51b1b;
+    cursor: pointer;
+}
+
