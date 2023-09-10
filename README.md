@@ -32,5 +32,7 @@ On the driver side, TripM allows drivers to manage their trips, expenses, and pa
 # <img width="700" alt="Screenshot 2023-05-30 135435" src="https://github.com/shreyasharma0201/TripM/assets/83056947/9241e60a-75e4-4383-b9a2-771d97cd0956"> # 
 ### Trip Details ###
 # <img width="700" alt="Screenshot 2023-05-30 135520" src="https://github.com/shreyasharma0201/TripM/assets/83056947/f75fe839-229d-449b-8d8f-ccecfe8b4eea"> #
+### Live Responsive on Mobile ###
+ # <img width = "200" src ="https://github.com/shreyasharma0201/TripM/assets/83056947/c73ad657-d3cf-4c9c-947d-8a8602230645"> #
 
 *and many more pages*
